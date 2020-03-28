@@ -1,0 +1,148 @@
+body {
+	font-size: 16px;
+	color: white;
+	background: #002366;
+}
+
+/*****Header*****/
+
+#header-nav {
+	background-color: #D8D8D8;
+	border: 0;
+	border-radius: 0;
+}
+#logo-image {
+	background: url("../css/logo.png") no-repeat;
+	background-size: 80px 80px;
+	width: 80px;
+	height: 80px;
+	margin: 15px;
+	border-radius: 50%;
+	border: 1px solid gold;
+}
+.navbar-brand h1 {
+	color: #002366;
+	font-family: 'Lobster', cursive;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-toggle .icon-bar {
+	border: 1px solid white;
+}
+#button-top-right {
+	margin: 30px;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #002366;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: white;
+}
+
+
+/*****Home Page*****/
+
+.container-fluid .jumbotron {
+	padding: 0px;
+	box-shadow: 0px 0px 5px white;
+	border: 5px solid gold;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 200px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	border: 1px solid white;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0px 0px 20px gold;
+	border: 1px solid gold;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	opacity: 0.8;
+	background-color: black;
+	text-transform: uppercase;
+	color: gold;
+	font-weight: bold;
+} 
+
+#menu-tile {
+	background: url("../css/menu-tile.png") no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+#specials-tile {
+	background: url("../css/specials-tile.png") no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.image img {
+	width: 100%;
+	height: 200px;
+	border: 2px solid gold;
+	border-radius: 50%;
+}
+
+.image img:hover {
+	border: 2px solid white;
+	box-shadow: 0 0 10px white;
+}
+
+.image {
+	font-family: 'Lobster', cursive;
+}
+
+.padding-change {
+	padding: 25px;
+}
+
+.image-caption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	color: gold;
+	font-size: 20px;
+}
+
+/*****Footer*****/
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #D8D8D8;
+	color: #002366;
+	text-align: center;
+	font-family: serif;
+	line-height: 30px;
+}
+
+footer  span {
+	font-size: 1.5em;
+}
+
+.panel-footer div.row {
+	margin-bottom: 30px;
+}
+
+#testimonials {
+	font-style: italic;
+}
